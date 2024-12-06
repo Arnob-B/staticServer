@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/api/static?image=$1"
+    }
+  ]
+}
